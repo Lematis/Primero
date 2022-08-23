@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 39vh 60vh 10vh;
+    grid-template-areas:
+    "Occidente"
+    "Oriente"
+    "Antartida"
+
+}
+.Personaje_introvertido{
+    background-color: darkmagenta;
+}
+.Personaje_extrovertido {
+    background-color: magenta;
+}
+
+header {
+    background-color: red;
+    grid-area: Occidente;
+
+}
+main{
+    grid-area: Oriente;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer{
+    background-color: orangered;
+    grid-area: Antartida;
+}
